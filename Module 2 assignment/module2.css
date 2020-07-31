@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+section {
+	border: 1px solid white;
+	border-radius: 15px;
+	background: #AAA;
+	border-width: 10px;
+	position: relative;
+}
+p {
+	padding-left: 10px;
+	padding-top: 25px;
+}
+div, .title {
+	width: 120px;
+	font-size: 120%;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	text-align: center;
+	background: #7CBDCE;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+@media (min-width: 992px) {
+	.col_lg_4 {
+		float: left;
+		width: 33.33%;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col_md_6 {
+		float: left;
+		width: 50%;
+	}
+	.col_md_12 {
+		float: left;
+		width: 100%
+	}
+
+}
+
+@media (max-width: 767px) {
+	.col_sm_12 {
+		float: left;
+		width: 100%;
+	}
+
+}
